@@ -1,1805 +1,305 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">	
+	$(function() {
+		$('#header').load('header.html');
+		$('#footer').load('footer.html');
+	})
+</script>
 <style type="text/css">
-.main-6vo {
-	background-color: #f7f7f7;
-	box-sizing: border-box;
-	height: 246.7rem;
-	left: 0;
-	padding-top: 4.6rem;
-	position: absolute;
-	top: 8.1rem;
-	width: 192rem; 
-	}
-	.divcontainercontainerbase-sc-1blfbq7-0-3d5 {
-	align-items : center;
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	width: 100%; 
-	}
-	.auto-group-ng1h-9w1 { align-items : center;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	padding: 0rem 39.4rem 11.788rem 39.9rem;
-	width: 100%; 
-	}
-	.auto-group-a4kb-4o5 { flex-shrink : 0;
-	height: 10.5rem;
-	margin: 0rem 0.5rem 1.612rem 0rem;
-	position: relative;
-	width: 112rem; 
-	}
-	.section-yQF { align-items : flex-end;
-	display: flex;
-	height: 9.088rem;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 112rem; 
-	}
-	
-	.wearth--EzP { color : #202020;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2.6rem;
-	font-weight: 600;
-	letter-spacing: -0.05rem;
-	line-height: 1.6899999472;
-	margin: 0rem 30.175rem 0.288rem 0rem;
-	max-width: 20.8rem;
-}
-
-.divbranding-sectionbrandingintroduce-sc-1dbdm7a-2-e2X {
-	flex-shrink: 0;
-	height: 5.8rem;
-	overflow: hidden;
-	position: relative;
-	width: 61.025rem;
-}
-
-.ibranding-introduce-itemiconbox-sc-qrv82a-3-8TV {
-	background-image:
-		url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/649ec453ff4817d2aa6ff0da78d952a87f027d88');
-	background-size: 100% 100%;
-	height: 5.2rem;
-	left: 75.4rem;
-	position: relative;
-	top: 5.3rem;
-	width: 5.2rem;
-}
-
-.spantexttext-sc-55es3p-0-brs {
-	align-items: center;
-	background-color: #ffffff;
-	border: solid 0.2rem rgba(0, 0, 0, 0.1000000015);
-	border-radius: 2.8rem;
-	box-sizing: border-box;
-	color: #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.6rem;
-	font-weight: 400;
-	height: 5.2rem;
-	justify-content: center;
-	left: 81.6rem;
-	letter-spacing: -0.03rem;
-	line-height: 1.5700000525;
-	position: absolute;
-	top: 5.3rem;
-	white-space: nowrap;
-	width: 19.125rem;
-}
-.divcontainercontainerbase-sc-1blfbq7-0-nwM {
-	align-items: flex-start;
-	display: flex;
-	flex-shrink: 0;
-	height: 193.2rem;
-	width: 100%; 
-	}
-	
-	.section-vXm { align-items : center;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	height: 100%;
-	margin-right: 4.3rem;
-	width: 72.4rem; 
-	}
-	
-	.divcontent-cardcontentcardbase-sc-tkgpjx-0-Fa3 {
-	background-color : #ffffff;
-	border-radius: 1.2rem;
-	box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1000000015);
-	flex-shrink: 0;
-	height: 25rem;
-	margin: 0rem 0.151rem 3.188rem 0rem;
-	width: 72.249rem; 
-	}
-	
-	.link-oo-oo-1299414--wSs { align-items : center;
-	display: flex;
-	height: 100%;
-	width: 100%; 
-	}
-	.divcontent-cardthumbnail-sc-tkgpjx-2-xWP {
-	background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	background-size: 100% 100%;
-	border-radius: 1.2rem 0 0 1.2rem;
-	flex-shrink: 0;
-	height: 100%;
-	margin-right: 3rem;
-	overflow: hidden;
-	position: relative;
-	width: 25rem;
-	} 
-	.pseudo-VWK { border : solid 0.1rem rgba( 0, 0, 0,
-	0.0299999993);
-	border-radius: 1.2rem 0 0 1.2rem;
-	box-sizing: border-box;
-	height: 100%;
+	@import url('style.css');
+body {
 	width: 100%;
-}
-
-.divcontent-cardthumbnail-sc-tkgpjx-2-xWP-bg {
-	background-image:
-		url('REPLACE_IMAGE:a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	height: 25rem;
-	position: relative;
-	width: 25rem;
-}
-.divcontent-cardcardcontent-sc-tkgpjx-3-vrX {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	height: calc(100% - 6.356rem);
-	margin: 2.915rem 0rem 3.441rem 0rem;
-	width: 44.249rem; 
-	}
-	.auto-group-5tax-dW3 { flex-shrink : 0;
-	height: 6.597rem;
-	position: relative;
-	width: 100%; 
-	}
-	
-	.item--NTd { align-items : center;
-	color: #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	height: 2rem;
-	justify-content: center;
-	left: 1.05rem;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	position: absolute;
-	top: 0;
-	white-space: nowrap;
-	width: 4.8rem;
-}
-
-.strong-SiP {
-	height: 3.2rem;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	top: 1.025rem;
-	width: 44.249rem;
-}
-
-.item--apb {
-	color: #202020;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2rem;
-	font-weight: 400;
-	height: 3.2rem;
-	left: 1rem;
-	letter-spacing: -0.03rem;
-	line-height: 1.5600000381;
-	position: absolute;
-	top: 3.397rem;
-	white-space: nowrap;
-	width: 20.4rem;
-}
-.auto-group-s2rq-r1R {
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	padding-top: 0.547rem;
-	width: 100%; 
-	}
-	
-	.spantexttext-sc-55es3p-0-zdR { flex-shrink : 0;
-	height: 6.9rem;
-	margin: 0rem 0rem 1.6rem 1.2rem;
-	overflow: hidden;
-	position: relative;
-	width: 32.7rem; 
-	}
-	.oo--Wbm { color : #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.2rem;
-	font-weight: 400;
-	line-height: 1.9166666667;
-	max-width: 32.7rem;
-}
-.emphasis-ihq {
-	align-items: center;
-	background-color: #202020;
-	box-sizing: border-box;
-	display: flex;
-	flex-shrink: 0;
-	margin-right: 29.476rem;
-	padding: 0.475rem 1.026rem 0.525rem 0.9rem;
-	width: calc(100% - 29.476rem); 
-	}
-	
-	.ifundraising-itemiconheart-sc-hhibd3-3-coD { background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/61646221ec860ce90b250eabc5c429cf14435325');
-	background-size: 100% 100%;
-	flex-shrink: 0;
-	height: 1.4rem;
-	margin: 0.05rem 0.646rem 0rem 0rem;
-	position: relative;
-	width: 1.4rem;
-}
-
-.item-1299414--sj9 {
-	align-items: center;
-	color: rgba(255, 255, 255, 0.8999999762);
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	white-space: nowrap;
-}
-.divcontainercontainerbase-sc-1blfbq7-0-WXD {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	margin: 0rem 0.051rem 3.012rem 0.1rem;
-	width: calc(100% - 0.151rem); 
-	}
-	
-	.divcontent-cardcontentcardbase-sc-tkgpjx-0-2Ef { background-color :
-	#ffffff;
-	border-radius: 1.2rem;
-	box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1000000015);
-	flex-shrink: 0;
-	height: 25rem;
-	width: 100%; 
-	}
-	
-	.link-oo-oo-1299414--y9u { align-items : center;
-	display: flex;
-	height: 100%;
-	width: 100%; 
-	}
-	
-	.divcontent-cardthumbnail-sc-tkgpjx-2-ccB {
-	background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	background-size: 100% 100%;
-	border-radius: 1.2rem 0 0 1.2rem;
-	flex-shrink: 0;
-	height: 100%;
-	margin-right: 3rem;
-	overflow: hidden;
-	position: relative;
-	width: 25rem; 
-	}
-	
-	.pseudo-kCb { border : solid 0.1rem rgba( 0, 0, 0,
-	0.0299999993);
-	border-radius: 1.2rem 0 0 1.2rem;
-	box-sizing: border-box;
-	height: 100%;
-	width: 100%;
-}
-
-.divcontent-cardthumbnail-sc-tkgpjx-2-ccB-bg {
-	background-image:
-		url('REPLACE_IMAGE:a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	height: 25rem;
-	position: relative;
-	width: 25rem;
-}
-.divcontent-cardcardcontent-sc-tkgpjx-3-QY3 {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	height: calc(100% - 6.356rem);
-	margin: 2.915rem 0rem 3.441rem 0rem;
-	width: 44.249rem; 
-	}
-	
-	.auto-group-de8t-7hM { flex-shrink : 0;
-	height: 6.597rem;
-	position: relative;
-	width: 100%; 
-	}
-	
-	.item--GaF { align-items : center;
-	color: #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	height: 2rem;
-	justify-content: center;
-	left: 1.05rem;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	position: absolute;
-	top: 0;
-	white-space: nowrap;
-	width: 4.8rem;
-}
-
-.strong-kkK {
-	height: 3.2rem;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	top: 1.025rem;
-	width: 44.249rem;
-}
-
-.item--hfZ {
-	color: #202020;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2rem;
-	font-weight: 400;
-	height: 3.2rem;
-	left: 1rem;
-	letter-spacing: -0.03rem;
-	line-height: 1.5600000381;
-	position: absolute;
-	top: 3.397rem;
-	white-space: nowrap;
-	width: 20.4rem;
-}
-.auto-group-ka27-NWo {
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	padding-top: 0.547rem;
-	width: 100%; 
-	}
-	
-	.spantexttext-sc-55es3p-0-vHR { flex-shrink : 0;
-	height: 6.9rem;
-	margin: 0rem 0rem 1.6rem 1.2rem;
-	overflow: hidden;
-	position: relative;
-	width: 32.7rem; 
-	}
-	
-	.oo--qfH { color : #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.2rem;
-	font-weight: 400;
-	line-height: 1.9166666667;
-	max-width: 32.7rem;
-}
-.emphasis-FU7 {
-	align-items: center;
-	background-color: #202020;
-	box-sizing: border-box;
-	display: flex;
-	flex-shrink: 0;
-	margin-right: 29.476rem;
-	padding: 0.475rem 1.026rem 0.525rem 0.9rem;
-	width: calc(100% - 29.476rem); 
-	}
-	
-	.ifundraising-itemiconheart-sc-hhibd3-3-Nod { background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/61646221ec860ce90b250eabc5c429cf14435325');
-	background-size: 100% 100%;
-	flex-shrink: 0;
-	height: 1.4rem;
-	margin: 0.05rem 0.646rem 0rem 0rem;
-	position: relative;
-	width: 1.4rem;
-}
-
-.item-1299414--G8K {
-	align-items: center;
-	color: rgba(255, 255, 255, 0.8999999762);
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	white-space: nowrap;
-}
-.auto-group-g3f9-MBh {
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	padding-top: 3rem;
-	width: 100%; 
-	}
-	
-	.divcontent-cardcontentcardbase-sc-tkgpjx-0-txK {
-	background-color : #ffffff;
-	border-radius: 1.2rem;
-	box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1000000015);
-	flex-shrink: 0;
-	height: 25rem;
-	margin-bottom: 3rem;
-	width: 70rem; 
-	}
-	
-	.link-1058200--Dzb { align-items : center;
-	display: flex;
-	height: 100%;
-	width: 69.396rem; 
-	}
-	
-	.divcontent-cardthumbnail-sc-tkgpjx-2-rw5 {
-	background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	background-size: 100% 100%;
-	border-radius: 1.2rem 0 0 1.2rem;
-	flex-shrink: 0;
-	height: 100%;
-	margin-right: 3rem;
-	overflow: hidden;
-	position: relative;
-	width: 25rem; 
-	}
-	
-	.pseudo-QBu { border : solid 0.1rem rgba( 0, 0, 0,
-	0.0299999993);
-	border-radius: 1.2rem 0 0 1.2rem;
-	box-sizing: border-box;
-	height: 100%;
-	width: 100%;
-}
-
-.divcontent-cardthumbnail-sc-tkgpjx-2-rw5-bg {
-	background-image:
-		url('REPLACE_IMAGE:a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	height: 25rem;
-	position: relative;
-	width: 25rem;
-}
-.divcontent-cardcardcontent-sc-tkgpjx-3-rpb {
-	flex-shrink: 0;
-	height: calc(100% - 6.356rem);
-	margin: 2.915rem 0rem 3.441rem 0rem;
-	width: 41.396rem; 
-	}
-	
-.item--B6B{ align-items : center;
-	color: #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	margin-bottom: 1.025rem;
-	white-space: nowrap;
-	width: 100%;
-}
-
-.strong-sUo {
-	align-items: center;
-	color: #202020;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2rem;
-	font-weight: 400;
-	height: 3.2rem;
-	justify-content: center;
-	letter-spacing: -0.03rem;
-	line-height: 1.5600000381;
-	margin: 0rem 0rem 0.919rem 0.3rem;
-	overflow: hidden;
-	position: relative;
-	white-space: nowrap;
-	width: 26.7rem;
-}
-
-.spantexttext-sc-55es3p-0-X3Z {
-	height: 6.9rem;
-	margin: 0rem 0rem 1.6rem 1.3rem;
-	overflow: hidden;
-	position: relative;
-	width: 34.4rem; 
-	}
-	
-	.item--Q7M { color : #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.2rem;
-	font-weight: 400;
-	line-height: 1.9166666667;
-	max-width: 34.4rem;
-}
-.emphasis-gDH {
-	align-items: center;
-	background-color: #202020;
-	box-sizing: border-box;
-	display: flex;
-	margin-right: 26.505rem;
-	padding: 0.475rem 1.036rem 0.525rem 0.9rem;
-	width: calc(100% - 26.505rem); 
-	}
-	
-	.ifundraising-itemiconheart-sc-hhibd3-3-bb9 { background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/61646221ec860ce90b250eabc5c429cf14435325');
-	background-size: 100% 100%;
-	flex-shrink: 0;
-	height: 1.4rem;
-	margin: 0.05rem 0.655rem 0rem 0rem;
-	position: relative;
-	width: 1.4rem;
-}
-
-.item-1058200--t4T {
-	align-items: center;
-	color: rgba(255, 255, 255, 0.8999999762);
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	white-space: nowrap;
-}
-.divcontent-cardcontentcardbase-sc-tkgpjx-0-KfZ {
-	background-color: #ffffff;
-	border-radius: 1.2rem;
-	box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1000000015);
-	flex-shrink: 0;
-	height: 25rem;
-	width: 70rem; 
-	}
-	
-	.link-1988-1-2-2020-441400--4t3 { align-items : center;
-	display: flex;
-	height: 100%;
-	width: 69.435rem; 
-	}
-	
-	.divcontent-cardthumbnail-sc-tkgpjx-2-Jvo {
-	background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	background-size: 100% 100%;
-	border-radius: 1.2rem 0 0 1.2rem;
-	flex-shrink: 0;
-	height: 100%;
-	margin-right: 3rem;
-	overflow: hidden;
-	position: relative;
-	width: 25rem; 
-	}
-	
-	.pseudo-Fb9 { border : solid 0.1rem rgba( 0, 0, 0,
-	0.0299999993);
-	border-radius: 1.2rem 0 0 1.2rem;
-	box-sizing: border-box;
-	height: 100%;
-	width: 100%;
-}
-
-.divcontent-cardthumbnail-sc-tkgpjx-2-Jvo-bg {
-	background-image:
-		url('REPLACE_IMAGE:a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	height: 25rem;
-	position: relative;
-	width: 25rem;
-}
-.divcontent-cardcardcontent-sc-tkgpjx-3-izX {
-	flex-shrink: 0;
-	height: calc(100% - 6.356rem);
-	margin: 2.915rem 0rem 3.441rem 0rem;
-	width: 41.435rem; 
-	}
-	
-	.item--qJT { align-items : center;
-	color: #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	margin-bottom: 0.925rem;
-	white-space: nowrap;
-	width: 100%;
-}
-
-.strong-94F {
-	align-items: center;
-	color: #202020;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2rem;
-	font-weight: 400;
-	height: 3.2rem;
-	justify-content: center;
-	letter-spacing: -0.03rem;
-	line-height: 1.5600000381;
-	margin-bottom: 1.019rem;
-	overflow: hidden;
-	position: relative;
-	white-space: nowrap;
-	width: 25.8rem;
-}
-
-.spantexttext-sc-55es3p-0-2dq {
-	height: 6.9rem;
-	margin: 0rem 0rem 1.6rem 1.25rem;
-	overflow: hidden;
-	position: relative;
-	width: 31.9rem; 
-	}
-	
-	.item--kZq { color : #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.2rem;
-	font-weight: 400;
-	line-height: 1.9166666667;
-	max-width: 31.9rem;
-}
-.emphasis-R3h {
-	align-items: center;
-	background-color: #202020;
-	box-sizing: border-box;
-	display: flex;
-	margin-right: 27.687rem;
-	padding: 0.475rem 0.964rem 0.525rem 0.9rem;
-	width: calc(100% - 27.687rem); 
-	}
-	
-	.ifundraising-itemiconheart-sc-hhibd3-3-8yh { background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/61646221ec860ce90b250eabc5c429cf14435325');
-	background-size: 100% 100%;
-	flex-shrink: 0;
-	height: 1.4rem;
-	margin: 0.05rem 0.584rem 0rem 0rem;
-	position: relative;
-	width: 1.4rem;
-}
-
-.item-441400--23V {
-	align-items: center;
-	color: rgba(255, 255, 255, 0.8999999762);
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	white-space: nowrap;
-}
-.divcontainercontainerbase-sc-1blfbq7-0-GyR {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	margin-left: 0.1rem;
-	width: 72.3rem; 
-	}
-	
-	.auto-group-nqu5-1AK { box-sizing : border-box;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	padding-bottom: 3rem;
-	width: 100%; 
-	}
-	
-	.divcontent-cardcontentcardbase-sc-tkgpjx-0-wpf {
-	background-color : #ffffff;
-	border-radius: 1.2rem;
-	box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1000000015);
-	flex-shrink: 0;
-	height: 25rem;
-	margin-bottom: 3rem;
-	width: 70rem; 
-	}
-	
-	.link-2003-29-3481700--tE7 { align-items : center;
-	display: flex;
-	height: 100%;
-	width: 65.9rem; 
-	}
-	
-	.divcontent-cardthumbnail-sc-tkgpjx-2-7WB {
-	background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	background-size: 100% 100%;
-	border-radius: 1.2rem 0 0 1.2rem;
-	flex-shrink: 0;
-	height: 100%;
-	margin-right: 3rem;
-	overflow: hidden;
-	position: relative;
-	width: 25rem; 
-	}
-	
-	.pseudo-f1u { border : solid 0.1rem rgba( 0, 0, 0,
-	0.0299999993);
-	border-radius: 1.2rem 0 0 1.2rem;
-	box-sizing: border-box;
-	height: 100%;
-	width: 100%;
-}
-
-.divcontent-cardthumbnail-sc-tkgpjx-2-7WB-bg {
-	background-image:
-		url('REPLACE_IMAGE:a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	height: 25rem;
-	position: relative;
-	width: 25rem;
-}
-.divcontent-cardcardcontent-sc-tkgpjx-3-XZu {
-	flex-shrink: 0;
-	height: calc(100% - 6.356rem);
-	margin: 2.915rem 0rem 3.441rem 0rem;
-	width: 37.9rem; 
-	}
-	
-	.item--SRy { align-items : center;
-	color: #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	margin-bottom: 0.547rem;
-	white-space: nowrap;
-	width: 100%;
-}
-
-.strong-9LP {
-	align-items: center;
-	color: #202020;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2rem;
-	font-weight: 400;
-	height: 3.2rem;
-	justify-content: center;
-	letter-spacing: -0.03rem;
-	line-height: 1.5600000381;
-	margin-bottom: 1.397rem;
-	overflow: hidden;
-	position: relative;
-	white-space: nowrap;
-	width: 33rem;
-}
-
-.spantexttext-sc-55es3p-0-3Rm {
-	height: 6.9rem;
-	margin: 0rem 0rem 1.6rem 1.1rem;
-	overflow: hidden;
-	position: relative;
-	width: 32.8rem; 
-	
-	}
-	
-	.item-2003-29--MxF { color : #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.2rem;
-	font-weight: 400;
-	line-height: 1.9166666667;
-	max-width: 32.8rem;
-}
-.emphasis-rXd {
-	align-items: center;
-	background-color: #202020;
-	box-sizing: border-box;
-	display: flex;
-	margin-right: 23.009rem;
-	padding: 0.475rem 1.036rem 0.525rem 0.9rem;
-	width: calc(100% - 23.009rem); 
-	}
-	
-	.ifundraising-itemiconheart-sc-hhibd3-3-ycF { background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/61646221ec860ce90b250eabc5c429cf14435325');
-	background-size: 100% 100%;
-	flex-shrink: 0;
-	height: 1.4rem;
-	margin: 0.05rem 0.655rem 0rem 0rem;
-	position: relative;
-	width: 1.4rem;
-}
-
-.item-3481700--fEB {
-	align-items: center;
-	color: rgba(255, 255, 255, 0.8999999762);
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	white-space: nowrap;
-}
-.divcontent-cardcontentcardbase-sc-tkgpjx-0-WEo {
-	background-color: #ffffff;
-	border-radius: 1.2rem;
-	box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1000000015);
-	flex-shrink: 0;
-	height: 25rem;
-	width: 70.189rem; 
-	}
-	
-	.link-7-134-120-483500--r3m { align-items : center;
-	display: flex;
-	height: 100%;
-	width: 100%; 
-	}
-	
-	.divcontent-cardthumbnail-sc-tkgpjx-2-hib {
-	background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	background-size: 100% 100%;
-	border-radius: 1.2rem 0 0 1.2rem;
-	flex-shrink: 0;
-	height: 100%;
-	margin-right: 3rem;
-	overflow: hidden;
-	position: relative;
-	width: 25rem; 
-	}
-	
-	.pseudo-qZu { border : solid 0.1rem rgba( 0, 0, 0,
-	0.0299999993);
-	border-radius: 1.2rem 0 0 1.2rem;
-	box-sizing: border-box;
-	height: 100%;
-	width: 100%;
-}
-
-.divcontent-cardthumbnail-sc-tkgpjx-2-hib-bg {
-	background-image:
-		url('REPLACE_IMAGE:a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	height: 25rem;
-	position: relative;
-	width: 25rem;
-}
-.divcontent-cardcardcontent-sc-tkgpjx-3-7GX {
-	flex-shrink: 0;
-	height: calc(100% - 5.406rem);
-	margin: 1.965rem 0rem 3.441rem 0rem;
-	width: 42.189rem; 
-	}
-	
-	.auto-group-tnxj-Ro1 { box-sizing : border-box;
-	margin-bottom: 1.119rem;
-	padding-top: 0.847rem;
-	width: 35.9rem; 
-	}
-	
-	.item--mM5 { align-items : center;
-	color: #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	margin-bottom: 0.928rem;
-	white-space: nowrap;
-	width: 100%;
-}
-
-.strong-fxF {
-	align-items: center;
-	color: #202020;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2rem;
-	font-weight: 400;
-	height: 3.2rem;
-	justify-content: center;
-	letter-spacing: -0.03rem;
-	line-height: 1.5600000381;
-	overflow: hidden;
-	position: relative;
-	white-space: nowrap;
-	width: 100%;
-}
-.spantexttext-sc-55es3p-0-BQo {
-	height: 6.9rem;
-	margin: 0rem 0rem 1.6rem 1.1rem;
-	overflow: hidden;
-	position: relative;
-	width: 35.1rem; 
-	}
-	
-	.item-7-134-1-20--he3 { color : #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.2rem;
-	font-weight: 400;
-	line-height: 1.9166666667;
-	max-width: 35.1rem;
-}
-.emphasis-oKh {
-	align-items: center;
-	background-color: #202020;
-	box-sizing: border-box;
-	display: flex;
-	margin-right: 28.295rem;
-	padding: 0.475rem 0.937rem 0.525rem 0.9rem;
-	width: calc(100% - 28.295rem); 
-	}
-	
-	.ifundraising-itemiconheart-sc-hhibd3-3-XFh { background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/61646221ec860ce90b250eabc5c429cf14435325');
-	background-size: 100% 100%;
-	flex-shrink: 0;
-	height: 1.4rem;
-	margin: 0.05rem 0.557rem 0rem 0rem;
-	position: relative;
-	width: 1.4rem;
-}
-
-.item-483500--pEo {
-	align-items: center;
-	color: rgba(255, 255, 255, 0.8999999762);
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	white-space: nowrap;
-}
-.divcontent-cardcontentcardbase-sc-tkgpjx-0-sD5 {
-	background-color: #ffffff;
-	border-radius: 1.2rem;
-	box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1000000015);
-	flex-shrink: 0;
-	height: 25rem;
-	width: 100%; 
-	}
-	
-	.link-4-promise-978768--DXq { align-items : center;
-	display: flex;
-	height: 100%;
-	width: 100%; 
-	}
-	
-	.divcontent-cardthumbnail-sc-tkgpjx-2-TqV {
-	background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	background-size: 100% 100%;
-	border-radius: 1.2rem 0 0 1.2rem;
-	flex-shrink: 0;
-	height: 100%;
-	margin-right: 3rem;
-	overflow: hidden;
-	position: relative;
-	width: 25rem; 
-	}
-	
-	.pseudo-bwh { border : solid 0.1rem rgba( 0, 0, 0,
-	0.0299999993);
-	border-radius: 1.2rem 0 0 1.2rem;
-	box-sizing: border-box;
-	height: 100%;
-	width: 100%;
-}
-
-.divcontent-cardthumbnail-sc-tkgpjx-2-TqV-bg {
-	background-image:
-		url('REPLACE_IMAGE:a1e6288b54db6b0c7e2bfcaaa47be1d337f3b30f');
-	height: 25rem;
-	position: relative;
-	width: 25rem;
-}
-.divcontent-cardcardcontent-sc-tkgpjx-3-44b {
-	flex-shrink: 0;
-	height: calc(100% - 6.403rem);
-	margin: 2.962rem 0rem 3.441rem 0rem;
-	width: 44.3rem; 
-	
-	}
-	
-	.item--Zn3 { align-items : center;
-	color: #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	margin-bottom: 0.45rem;
-	white-space: nowrap;
-	width: 100%;
-}
-
-.strong-GgT {
-	align-items: center;
-	color: #202020;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2rem;
-	font-weight: 400;
-	height: 3.2rem;
-	justify-content: center;
-	letter-spacing: -0.03rem;
-	line-height: 1.5600000381;
-	margin-bottom: 1.447rem;
-	overflow: hidden;
-	position: relative;
-	white-space: nowrap;
-	width: 28rem;
-}
-
-.spantexttext-sc-55es3p-0-ZfZ {
-	height: 6.9rem;
-	margin: 0rem 0rem 1.6rem 1.25rem;
-	overflow: hidden;
-	position: relative;
-	width: 33.4rem; 
-	}
-	
-	.item--HbZ { color : #888888;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.2rem;
-	font-weight: 400;
-	line-height: 1.9166666667;
-	max-width: 33.4rem;
-}
-.emphasis-MUw {
-	align-items: center;
-	background-color: #202020;
-	box-sizing: border-box;
-	display: flex;
-	margin-right: 30.362rem;
-	padding: 0.475rem 1.059rem 0.525rem 0.9rem;
-	width: calc(100% - 30.362rem); 
-	}
-	
-	.ifundraising-itemiconheart-sc-hhibd3-3-GM1 { background-image :
-	url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/61646221ec860ce90b250eabc5c429cf14435325');
-	background-size: 100% 100%;
-	flex-shrink: 0;
-	height: 1.4rem;
-	margin: 0.05rem 0.679rem 0rem 0rem;
-	position: relative;
-	width: 1.4rem;
-}
-
-.item-978768--M7Z {
-	align-items: center;
-	color: rgba(255, 255, 255, 0.8999999762);
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.3rem;
-	font-weight: 400;
-	justify-content: center;
-	letter-spacing: -0.015rem;
-	line-height: 1.5;
-	white-space: nowrap;
-}
-.section-bGo {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-	width: 36rem; 
-	}
-	
-	.divcontainercontainerbase-sc-1blfbq7-0-vps {
-	background-color : #ffffff;
-	border-radius: 3rem;
-	box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1000000015);
-	flex-shrink: 0;
-	height: 24.9rem;
-	margin-bottom: 3.976rem;
-	width: 100%; 
-	}
-	
-	.divcontainercontainerbase-sc-1blfbq7-0-sEK { align-items
-	: center;
-	background-color: rgba(153, 191, 96, 0.6000000238);
-	border-radius: 1.2rem;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	padding: 3.4rem 2.6rem 2.888rem 2.6rem;
-	width: 100%; 
-	}
-	
-	.auto-group-r3sj-zJw { align-items : flex-end;
-	display: flex;
-	flex-shrink: 0;
-	height: 11.412rem;
-	margin: 0rem 0.4rem 3rem 0rem;
-	width: calc(100% - 0.4rem); 
-	}
-	
-	.auto-group-5wy7-VmV { flex-shrink : 0;
-	height: 100%;
-	margin-right: 1.7rem;
-	width: 21.2rem; 
-	}
-	
-	.auto-group-otif-Eyy { height : 5.9828rem;
-	margin-bottom: 0.6292rem;
-	position: relative;
-	width: 12.5096rem; 
-	}
-	
-	.item--ywZ { color : #ffffff;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2rem;
-	font-weight: 700;
-	height: 3rem;
-	left: 0;
-	line-height: 1.5;
-	position: absolute;
-	top: 0;
-	white-space: nowrap;
-	width: 4.9rem;
-}
-
-.item--tYj {
-	color: #ffffff;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.1rem;
-	font-weight: 700;
-	height: 3rem;
-	left: 0.0096rem;
-	line-height: 2.7272727273;
-	position: absolute;
-	top: 2.9828rem;
-	white-space: nowrap;
-	width: 12.5rem;
-}
-.link-AWF {
-	align-items: center;
-	background-color: #ffffff;
-	border-radius: 1rem;
-	box-sizing: border-box;
-	display: flex;
-	padding: 1.5rem 1.373rem 1.4rem 2rem;
-	width: 100%; 
-	}
-	
-	.strong--JMZ { color : #202020;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.5rem;
-	font-weight: 400;
-	letter-spacing: -0.015rem;
-	line-height: 1.0666666667;
-	margin: 0.3rem 5.527rem 0rem 0rem;
-	white-space: nowrap;
-}
-
-.item-7777-CC3 {
-	color: #202020;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.8rem;
-	font-weight: 400;
-	letter-spacing: -0.018rem;
-	line-height: 1;
-	margin-bottom: 0.1rem;
-	text-align: right;
-	white-space: nowrap;
-}
-.divstatisticsimagebox-sc-1fyn3y9-3-taf {
-	background-image:
-		url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/834a0dbcc0dcb801bd60e62c4a5049e6e43c2b1d');
-	background-position: 0 -0.0149rem;
-	background-size: 100% 100.317%;
-	flex-shrink: 0;
-	height: 9.4rem;
-	margin-bottom: 0.5rem;
-	position: relative;
-	width: 7.5rem;
-}
-.link-ys1 {
-	align-items: center;
-	background-color: #027000;
-	border-radius: 1rem;
-	color: #ffffff;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.8rem;
-	font-weight: 400;
-	height: 4.2rem;
-	justify-content: center;
-	letter-spacing: -0.018rem;
-	line-height: 1;
-	text-align: right;
-	white-space: nowrap;
-	width: 100%;
-}
-.link-cf5 {
-	background-color: #fa7575;
-	background-image:
-		url('/api/try-prod-ap-southeast-1-first-cluster/projects/P1XTSwAxwnBtgCDnTAKmXf/files/image/fea48a12a899d472823d37c61cf5d766056477e5');
-	background-position: 23rem 8.9745rem;
-	background-size: 30.556% 53.871%;
-	border-radius: 1.2rem;
-	box-sizing: border-box;
-	flex-shrink: 0;
-	height: 24.7rem;
-	overflow: hidden;
-	padding: 3.5rem 2.6rem;
-	position: relative;
-	width: 100%; 
-	}
-	
-	.divcontainercontainerbase-sc-1blfbq7-0-whM { height :
-	8.609rem;
-	width: 21rem; 
-	}
-	
-	.strong-UhH { margin-bottom : 0.95rem;
-	overflow: hidden;
-	position: relative;
-	width: 100%; 
-	}
-	
-	.item--qGw { color : #ffffff;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 2rem;
-	font-weight: 400;
-	letter-spacing: -0.018rem;
-	line-height: 1.5;
-	max-width: 17.3rem;
-}
-.pcontainercontainerbase-sc-1blfbq7-0-KT1 {
-	align-items: center;
-	color: #ffffff;
-	display: flex;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.4rem;
-	font-weight: 400;
-	height: 1.7rem;
-	justify-content: center;
-	line-height: 1.1500000272;
-	opacity: 0.6;
-	overflow: hidden;
-	position: relative;
-	white-space: nowrap;
-	width: 13.1rem;
-}
-.link-cf5-bg {
-	background-image:
-		url('REPLACE_IMAGE:fea48a12a899d472823d37c61cf5d766056477e5');
-	height: 24.7rem;
-	position: relative;
-	width: 36rem;
-}
-.footer-Vko {
-	background-color: #202020;
-	box-sizing: border-box;
-	flex-shrink: 0;
-	height: 25rem;
-	padding: 4.5rem 40rem;
-	width: 100%; 
-	}
-	
-	.divcontainercontainerbase-sc-1blfbq7-0-2kj { align-items
-	: flex-end;
-	display: flex;
-	flex-direction: column;
-	height: 11.119rem;
-	width: 100%; 
-	}
-	
-	.auto-group-hsjb-a1Z { align-items : flex-start;
-	display: flex;
-	flex-shrink: 0;
-	height: 4.4rem;
-	margin-bottom: 4.519rem;
-	width: 100%; 
-	}
-	
-	.footerlogopcsvg-71V { box-sizing : border-box;
-	color: #ffffff;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.8rem;
-	font-weight: 700;
-	height: 1.8rem;
-	letter-spacing: -0.03rem;
-	line-height: 1.2133333418;
-	margin: 0.5rem 67.345rem 0rem 0rem;
-	overflow: hidden;
-	padding: 0.019rem 1.6rem 0rem 1.9rem;
-	position: relative;
-	white-space: nowrap;
-}
-
-.divcontainercontainerbase-sc-1blfbq7-0-xXu {
-	align-items: center;
-	display: flex;
-	flex-shrink: 0;
-	height: 100%; 
-	}
-	
-	.item--7fh { color : #999999;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.2rem;
-	font-weight: 400;
-	line-height: 1.8316666285;
-	margin-right: 3.655rem;
-	max-width: 20.2rem;
-	text-align: right;
-}
-
-.link-LoM {
-	align-items: center;
-	border: solid 0.1rem #666666;
-	border-radius: 2rem;
-	box-sizing: border-box;
-	color: #999999;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.4rem;
-	font-weight: 400;
-	height: calc(100% - 0.4rem);
-	justify-content: center;
-	letter-spacing: -0.01rem;
-	line-height: 1.5;
-	margin: 0.297rem 0rem 0.103rem 0rem;
-	text-align: right;
-	white-space: nowrap;
-	width: 9.4rem;
-}
-.divcontainercontainerbase-sc-1blfbq7-0-mdm {
-	align-items: center;
-	display: flex;
-	flex-shrink: 0;
-	height: 2.2rem;
-	margin: 0rem 0.017rem 0rem 49.2rem;
-	width: calc(100% - 49.217rem); 
-	}
-	
-	.auto-group-esc7-5uM { align-items :
-	flex-end;
-	box-sizing: border-box;
-	display: flex;
-	flex-shrink: 0;
-	height: 100%;
-	padding: 0.4rem 5.121rem 0rem 0rem; 
-	
-	}
-	
-	.link-small-kakao-corp-RCX { color
-	: #999999;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.4rem;
-	font-weight: 400;
-	letter-spacing: -0.03rem;
-	line-height: 1.0999999728;
-	margin: 0rem 3.8rem 0.2rem 0rem;
-	white-space: nowrap;
-}
-
-.list-Vy5 {
-	align-items: center;
-	display: flex;
-	flex-shrink: 0;
-	margin-top: 0.1rem; 
-	}
-	
-	.item-link--3jh { color : #999999;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.5rem;
-	font-weight: 400;
-	letter-spacing: -0.03rem;
-	line-height: 1.1;
-	margin-right: 7.281rem;
-	white-space: nowrap;
-}
-
-
-.item-link--MEb {
-	color: #999999;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.5rem;
-	font-weight: 400;
-	letter-spacing: -0.03rem;
-	line-height: 1.1;
-	margin-right: 7.781rem;
-	white-space: nowrap;
-}
-
-.item-link--TYX {
-	color: #999999;
-	display: flex;
-	flex-shrink: 0;
-	font-family: Inter, 'Source Sans Pro';
-	font-size: 1.5rem;
-	font-weight: 400;
-	letter-spacing: -0.03rem;
-	line-height: 1.1;
-	white-space: nowrap;
-}
-
-.list-yFy {
-	align-items: center;
-	display: flex;
-	flex-shrink: 0;
-	height: 100%; 
-	}
-	
-	.item-link-8ef { flex-shrink : 0;
-	height: 2.2rem;
-	margin-right: 2.8rem;
-	object-fit: contain;
-	vertical-align: top;
-	width: 2.2rem;
-}
-
-.item-link-547 {
-	flex-shrink: 0;
-	height: 2.16rem;
-	margin-right: 3.3rem;
-	object-fit: contain;
-	vertical-align: top;
-	width: 1.2rem;
-}
-
-.item-link-DRD {
-	flex-shrink: 0;
-	height: 2.16rem;
-	margin-right: 2.8rem;
-	object-fit: contain;
-	vertical-align: top;
-	width: 1.2rem;
-}
-
-.item-link-MXR {
-	flex-shrink: 0;
-	height: 2.2rem;
-	object-fit: contain;
-	vertical-align: top;
-	width: 2.2rem;
 }
 </style>
-<meta charset="UTF-8">
 <title>Insert title here</title>
+
 </head>
 <body>
-	<div class="main-6vo" id="1:3">
-<div class="divcontainercontainerbase-sc-1blfbq7-0-3d5" id="1:4">
-<div class="auto-group-ng1h-9w1" id="Q1nF82WBnXtNLkKzF2ng1H">
-<div class="auto-group-a4kb-4o5" id="Q1nEoxByCxPEbACguxa4kb">
-<div class="section-yQF" id="1:5">
-<div class="wearth--EzP" id="1:7">
-Wearth ♥
+	<div id="header"></div>
 
-<br/>
-새로운 환경보호 플랫폼
+			<div class="auto-group-ng1h-9w1" id="Q1nF82WBnXtNLkKzF2ng1H">
+				<div class="auto-group-a4kb-4o5" id="Q1nEoxByCxPEbACguxa4kb">
+					<div class="section-yQF" id="1:5">
+						<div class="wearth--EzP" id="1:7">
+							Wearth ♥ <br /> 새로운 환경보호 플랫폼
 
-</div>
-<div class="divbranding-sectionbrandingintroduce-sc-1dbdm7a-2-e2X" id="1:8"></div>
-</div>
-<div class="ibranding-introduce-itemiconbox-sc-qrv82a-3-8TV" id="1:333"></div>
-<div class="spantexttext-sc-55es3p-0-brs" id="1:334">기부 53,372,936 건</div>
-</div>
-<div class="divcontainercontainerbase-sc-1blfbq7-0-nwM" id="1:19">
-<div class="section-vXm" id="1:20">
-<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-Fa3" id="1:395">
-<div class="link-oo-oo-1299414--wSs" id="1:396">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-xWP" id="1:397">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-xWP-bg"></div>
-<div class="pseudo-VWK" id="1:398"></div>
-</div>
-<div class="divcontent-cardcardcontent-sc-tkgpjx-3-vrX" id="1:399">
-<div class="auto-group-5tax-dW3" id="Q1nH3Je6ubpP2KDsby5taX">
-<div class="item--NTd" id="1:401"># 교육지원</div>
-<div class="strong-SiP" id="1:402"></div>
-<div class="item--apb" id="1:403">아이들의 세계를 넓혀 주세요</div>
-</div>
-<div class="auto-group-s2rq-r1R" id="Q1nH9PJJd6jDLTEBzgs2Rq">
-<div class="spantexttext-sc-55es3p-0-zdR" id="1:404">
-<div class="oo--Wbm" id="1:405">
-재능기부를 도와드립니다 어느날 국제청년센터 사무실로 한 통의 전화
+						</div>
+						<div class="divbranding-sectionbrandingintroduce-sc-1dbdm7a-2-e2X"
+							id="1:8"></div>
+					</div>
+					<div class="ibranding-introduce-itemiconbox-sc-qrv82a-3-8TV"
+						id="1:333"></div>
+					<div class="spantexttext-sc-55es3p-0-brs" id="1:334">기부
+						53,372,936 건</div>
+				</div>
+				<div class="divcontainercontainerbase-sc-1blfbq7-0-nwM" id="1:19">
+					<div class="section-vXm" id="1:20">
+						<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-Fa3"
+							id="1:395">
+							<div class="link-oo-oo-1299414--wSs" id="1:396">
+								<div class="divcontent-cardthumbnail-sc-tkgpjx-2-xWP" id="1:397">
+									<div class="divcontent-cardthumbnail-sc-tkgpjx-2-xWP-bg"></div>
+									<div class="pseudo-VWK" id="1:398"></div>
+								</div>
+								<div class="divcontent-cardcardcontent-sc-tkgpjx-3-vrX"
+									id="1:399">
+									<div class="auto-group-5tax-dW3" id="Q1nH3Je6ubpP2KDsby5taX">
+										<div class="item--NTd" id="1:401"># 교육지원</div>
+										<div class="strong-SiP" id="1:402"></div>
+										<div class="item--apb" id="1:403">아이들의 세계를 넓혀 주세요</div>
+									</div>
+									<div class="auto-group-s2rq-r1R" id="Q1nH9PJJd6jDLTEBzgs2Rq">
+										<div class="spantexttext-sc-55es3p-0-zdR" id="1:404">
+											<div class="oo--Wbm" id="1:405">
+												재능기부를 도와드립니다 어느날 국제청년센터 사무실로 한 통의 전화 <br /> 가 걸려 왔습니다. 자신을
+												포항에 사는 직장인이라고 밝힌 OO님은 자신 <br /> 의 스페인어 실력로 필요한 사람들에게 도움이 되고
+												싶다고 전했습니…
 
-<br/>
-가 걸려 왔습니다. 자신을 포항에 사는 직장인이라고 밝힌 OO님은 자신
+											</div>
+										</div>
+										<div class="emphasis-ihq" id="1:406">
+											<div class="ifundraising-itemiconheart-sc-hhibd3-3-coD"
+												id="1:407"></div>
+											<div class="item-1299414--sj9" id="1:408">1,299,414원
+												모금중</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="divcontainercontainerbase-sc-1blfbq7-0-WXD" id="1:22">
+							<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-2Ef"
+								id="1:23">
+								<div class="link-oo-oo-1299414--y9u" id="1:24">
+									<div class="divcontent-cardthumbnail-sc-tkgpjx-2-ccB" id="1:25">
+										<div class="divcontent-cardthumbnail-sc-tkgpjx-2-ccB-bg"></div>
+										<div class="pseudo-kCb" id="1:26"></div>
+									</div>
+									<div class="divcontent-cardcardcontent-sc-tkgpjx-3-QY3"
+										id="1:27">
+										<div class="auto-group-de8t-7hM" id="Q1nG9Vo6QB9myXFwPXde8T">
+											<div class="item--GaF" id="1:29"># 교육지원</div>
+											<div class="strong-kkK" id="1:30"></div>
+											<div class="item--hfZ" id="1:31">아이들의 세계를 넓혀 주세요</div>
+										</div>
+										<div class="auto-group-ka27-NWo" id="Q1nGGAGf6tNPSYt3F4Ka27">
+											<div class="spantexttext-sc-55es3p-0-vHR" id="1:32">
+												<div class="oo--qfH" id="1:33">
+													재능기부를 도와드립니다 어느날 국제청년센터 사무실로 한 통의 전화 <br /> 가 걸려 왔습니다. 자신을
+													포항에 사는 직장인이라고 밝힌 OO님은 자신 <br /> 의 스페인어 실력로 필요한 사람들에게 도움이
+													되고 싶다고 전했습니…
 
-<br/>
-의 스페인어 실력로 필요한 사람들에게 도움이 되고 싶다고 전했습니…
+												</div>
+											</div>
+											<div class="emphasis-FU7" id="1:34">
+												<div class="ifundraising-itemiconheart-sc-hhibd3-3-Nod"
+													id="1:35"></div>
+												<div class="item-1299414--G8K" id="1:36">1,299,414원
+													모금중</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="auto-group-g3f9-MBh" id="Q1nFW1sYhgJayjt7xgG3F9">
+								<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-txK"
+									id="1:37">
+									<div class="link-1058200--Dzb" id="1:38">
+										<div class="divcontent-cardthumbnail-sc-tkgpjx-2-rw5"
+											id="1:39">
+											<div class="divcontent-cardthumbnail-sc-tkgpjx-2-rw5-bg"></div>
+											<div class="pseudo-QBu" id="1:40"></div>
+										</div>
+										<div class="divcontent-cardcardcontent-sc-tkgpjx-3-rpb"
+											id="1:41">
+											<div class="item--B6B" id="1:43"># 기본생활지원</div>
+											<div class="strong-sUo" id="1:44">밴드에 의존하여 생활한지 몇 개월..</div>
+											<div class="spantexttext-sc-55es3p-0-X3Z" id="1:46">
+												<div class="item--Q7M" id="1:47">
+													붉게 달아오르고 따가운 손 오늘도 빨간 대야에 빨갛게 달아오른 열봉을 <br /> 넣어 물을 가열합니다.
+													&#34;전기세가 걱정되는데... 지하수 물이 너무 차가 <br /> 워서 쓸 수가 없어.&#34;
+													얼음장 같은 물에 씻으니 손이 트고 갈라지고, 손…
 
-</div>
-</div>
-<div class="emphasis-ihq" id="1:406">
-<div class="ifundraising-itemiconheart-sc-hhibd3-3-coD" id="1:407"></div>
-<div class="item-1299414--sj9" id="1:408">1,299,414원 모금중</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="divcontainercontainerbase-sc-1blfbq7-0-WXD" id="1:22">
-<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-2Ef" id="1:23">
-<div class="link-oo-oo-1299414--y9u" id="1:24">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-ccB" id="1:25">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-ccB-bg"></div>
-<div class="pseudo-kCb" id="1:26"></div>
-</div>
-<div class="divcontent-cardcardcontent-sc-tkgpjx-3-QY3" id="1:27">
-<div class="auto-group-de8t-7hM" id="Q1nG9Vo6QB9myXFwPXde8T">
-<div class="item--GaF" id="1:29"># 교육지원</div>
-<div class="strong-kkK" id="1:30"></div>
-<div class="item--hfZ" id="1:31">아이들의 세계를 넓혀 주세요</div>
-</div>
-<div class="auto-group-ka27-NWo" id="Q1nGGAGf6tNPSYt3F4Ka27">
-<div class="spantexttext-sc-55es3p-0-vHR" id="1:32">
-<div class="oo--qfH" id="1:33">
-재능기부를 도와드립니다 어느날 국제청년센터 사무실로 한 통의 전화
+												</div>
+											</div>
+											<div class="emphasis-gDH" id="1:48">
+												<div class="ifundraising-itemiconheart-sc-hhibd3-3-bb9"
+													id="1:49"></div>
+												<div class="item-1058200--t4T" id="1:50">1,058,200원
+													모금중</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-KfZ"
+									id="1:51">
+									<div class="link-1988-1-2-2020-441400--4t3" id="1:52">
+										<div class="divcontent-cardthumbnail-sc-tkgpjx-2-Jvo"
+											id="1:53">
+											<div class="divcontent-cardthumbnail-sc-tkgpjx-2-Jvo-bg"></div>
+											<div class="pseudo-Fb9" id="1:54"></div>
+										</div>
+										<div class="divcontent-cardcardcontent-sc-tkgpjx-3-izX"
+											id="1:55">
+											<div class="item--qJT" id="1:57"># 건강한삶</div>
+											<div class="strong-94F" id="1:58">손 끝을 떠난 공에서 생기는 희망</div>
+											<div class="spantexttext-sc-55es3p-0-2dq" id="1:60">
+												<div class="item--kZq" id="1:61">
+													컬링과 비슷한 장애인 스포츠 ‘보치아’를 아시나요? 지체장애인을 위하 <br /> 여 개발된 스포츠
+													‘보치아’, 들어보셨나요? 보치아는 패럴림픽의 정식 <br /> 종목으로 가죽으로 된 공을 던지거나 굴려
+													표적구와의 거리를 비교하…
 
-<br/>
-가 걸려 왔습니다. 자신을 포항에 사는 직장인이라고 밝힌 OO님은 자신
+												</div>
+											</div>
+											<div class="emphasis-R3h" id="1:62">
+												<div class="ifundraising-itemiconheart-sc-hhibd3-3-8yh"
+													id="1:63"></div>
+												<div class="item-441400--23V" id="1:64">441,400원 모금중</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="divcontainercontainerbase-sc-1blfbq7-0-GyR" id="1:89">
+							<div class="auto-group-nqu5-1AK" id="Q1nHSTeBoAr9y61aFENqu5">
+								<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-wpf"
+									id="1:90">
+									<div class="link-2003-29-3481700--tE7" id="1:91">
+										<div class="divcontent-cardthumbnail-sc-tkgpjx-2-7WB"
+											id="1:92">
+											<div class="divcontent-cardthumbnail-sc-tkgpjx-2-7WB-bg"></div>
+											<div class="pseudo-f1u" id="1:93"></div>
+										</div>
+										<div class="divcontent-cardcardcontent-sc-tkgpjx-3-XZu"
+											id="1:94">
+											<div class="item--SRy" id="1:96"># 공간개선</div>
+											<div class="strong-9LP" id="1:97">장애인이 편한 길이 모두가 안전한
+												길이에요!</div>
+											<div class="spantexttext-sc-55es3p-0-3Rm" id="1:99">
+												<div class="item-2003-29--MxF" id="1:100">
+													깨지고 튀어나온 보도블럭 때문에 걷기가 위험해요 양평천사의집은 <br /> 2003년 개원한
+													장애인거주시설로 29명의 지적, 뇌병변 장애인분들이 <br /> 삶의 주체가 되어 행복을 이루어가고 있는
+													곳이에요. 우리 시설은 지…
 
-<br/>
-의 스페인어 실력로 필요한 사람들에게 도움이 되고 싶다고 전했습니…
+												</div>
+											</div>
+											<div class="emphasis-rXd" id="1:101">
+												<div class="ifundraising-itemiconheart-sc-hhibd3-3-ycF"
+													id="1:102"></div>
+												<div class="item-3481700--fEB" id="1:103">3,481,700원
+													모금중</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-WEo"
+									id="1:104">
+									<div class="link-7-134-120-483500--r3m" id="1:105">
+										<div class="divcontent-cardthumbnail-sc-tkgpjx-2-hib"
+											id="1:106">
+											<div class="divcontent-cardthumbnail-sc-tkgpjx-2-hib-bg"></div>
+											<div class="pseudo-qZu" id="1:107"></div>
+										</div>
+										<div class="divcontent-cardcardcontent-sc-tkgpjx-3-7GX"
+											id="1:108">
+											<div class="auto-group-tnxj-Ro1" id="Q1nHr2oF72xLsvXQWDTnxj">
+												<div class="item--mM5" id="1:110"># 건강한식생활</div>
+												<div class="strong-fxF" id="1:111">내 생에 처음 차려본 소박하지만
+													따뜻한 한 끼</div>
+											</div>
+											<div class="spantexttext-sc-55es3p-0-BQo" id="1:113">
+												<div class="item-7-134-1-20--he3" id="1:114">
+													부산 해운대구 7개동 중 가장 높은 취약계층 인구 비율 본 복지관이 위 <br /> 치한 반송동은
+													해운대구 내 노인 인구 수 1위(34%), 저소득 인구 수 1 <br /> 위(20%)로 열악한
+													지역입니다. 지역 내 취약계층을 위한 다양한 지원…
 
-</div>
-</div>
-<div class="emphasis-FU7" id="1:34">
-<div class="ifundraising-itemiconheart-sc-hhibd3-3-Nod" id="1:35"></div>
-<div class="item-1299414--G8K" id="1:36">1,299,414원 모금중</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="auto-group-g3f9-MBh" id="Q1nFW1sYhgJayjt7xgG3F9">
-<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-txK" id="1:37">
-<div class="link-1058200--Dzb" id="1:38">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-rw5" id="1:39">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-rw5-bg"></div>
-<div class="pseudo-QBu" id="1:40"></div>
-</div>
-<div class="divcontent-cardcardcontent-sc-tkgpjx-3-rpb" id="1:41">
-<div class="item--B6B" id="1:43"># 기본생활지원</div>
-<div class="strong-sUo" id="1:44">밴드에 의존하여 생활한지 몇 개월..</div>
-<div class="spantexttext-sc-55es3p-0-X3Z" id="1:46">
-<div class="item--Q7M" id="1:47">
-붉게 달아오르고 따가운 손 오늘도 빨간 대야에 빨갛게 달아오른 열봉을
+												</div>
+											</div>
+											<div class="emphasis-oKh" id="1:115">
+												<div class="ifundraising-itemiconheart-sc-hhibd3-3-XFh"
+													id="1:116"></div>
+												<div class="item-483500--pEo" id="1:117">483,500원 모금중</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-sD5"
+								id="1:118">
+								<div class="link-4-promise-978768--DXq" id="1:119">
+									<div class="divcontent-cardthumbnail-sc-tkgpjx-2-TqV"
+										id="1:120">
+										<div class="divcontent-cardthumbnail-sc-tkgpjx-2-TqV-bg"></div>
+										<div class="pseudo-bwh" id="1:121"></div>
+									</div>
+									<div class="divcontent-cardcardcontent-sc-tkgpjx-3-44b"
+										id="1:122">
+										<div class="item--Zn3" id="1:124"># 국제구호</div>
+										<div class="strong-GgT" id="1:125">폭탄, 배고픔, 열기 속 수단의 아이들</div>
+										<div class="spantexttext-sc-55es3p-0-ZfZ" id="1:127">
+											<div class="item--HbZ" id="1:128">
+												폭탄을 피해도 열기와 배고픔에 스러지는 수단의 아이들을 도와주세요. <br /> 갑자기 도시를 뒤흔든
+												총성, 폭탄으로 무너지는 건물 속에서 무고한 시 <br /> 민을 지키는 이가 없는 하루하루, 상상이
+												가시나요? 지금 수단의 아이…
 
-<br/>
-넣어 물을 가열합니다. &#34;전기세가 걱정되는데... 지하수 물이 너무 차가
+											</div>
+										</div>
+										<div class="emphasis-MUw" id="1:129">
+											<div class="ifundraising-itemiconheart-sc-hhibd3-3-GM1"
+												id="1:130"></div>
+											<div class="item-978768--M7Z" id="1:131">978,768원 모금중</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section-bGo" id="1:336">
+						<div class="divcontainercontainerbase-sc-1blfbq7-0-vps" id="1:337">
+							<div class="divcontainercontainerbase-sc-1blfbq7-0-sEK"
+								id="1:338">
+								<div class="auto-group-r3sj-zJw" id="Q1nKPQPzbR5pWuoz53r3Sj">
+									<div class="auto-group-5wy7-VmV" id="Q1nKYyxNEBqKkPX1Ed5wY7">
+										<div class="auto-group-otif-Eyy" id="Q1nKdZf4qRfsP6WT1YotiF">
+											<div class="item--ywZ" id="1:340">장그래님</div>
+											<div class="item--tYj" id="1:341">환경보호를 위한 작은 실천들</div>
+										</div>
+										<div class="link-AWF" id="1:345">
+											<div class="strong--JMZ" id="1:346">총 환경점수</div>
+											<div class="item-7777-CC3" id="1:348">7,777점</div>
+										</div>
+									</div>
+									<div class="divstatisticsimagebox-sc-1fyn3y9-3-taf" id="1:349"></div>
+								</div>
+								<div class="link-ys1" id="1:342">마이페이지</div>
+							</div>
+						</div>
+						<div class="link-cf5" id="1:350">
+							<div class="link-cf5-bg"></div>
+							<div class="divcontainercontainerbase-sc-1blfbq7-0-whM"
+								id="1:351">
+								<div class="strong-UhH" id="1:352">
+									<div class="item--qGw" id="1:353">
+										이모티콘으로 <br /> 어린이에게 희망을 전해요
 
-<br/>
-워서 쓸 수가 없어.&#34; 얼음장 같은 물에 씻으니 손이 트고 갈라지고, 손…
-
-</div>
-</div>
-<div class="emphasis-gDH" id="1:48">
-<div class="ifundraising-itemiconheart-sc-hhibd3-3-bb9" id="1:49"></div>
-<div class="item-1058200--t4T" id="1:50">1,058,200원 모금중</div>
-</div>
-</div>
-</div>
-</div>
-<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-KfZ" id="1:51">
-<div class="link-1988-1-2-2020-441400--4t3" id="1:52">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-Jvo" id="1:53">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-Jvo-bg"></div>
-<div class="pseudo-Fb9" id="1:54"></div>
-</div>
-<div class="divcontent-cardcardcontent-sc-tkgpjx-3-izX" id="1:55">
-<div class="item--qJT" id="1:57"># 건강한삶</div>
-<div class="strong-94F" id="1:58">손 끝을 떠난 공에서 생기는 희망</div>
-<div class="spantexttext-sc-55es3p-0-2dq" id="1:60">
-<div class="item--kZq" id="1:61">
-컬링과 비슷한 장애인 스포츠 ‘보치아’를 아시나요? 지체장애인을 위하
-
-<br/>
-여 개발된 스포츠 ‘보치아’, 들어보셨나요? 보치아는 패럴림픽의 정식
-
-<br/>
-종목으로 가죽으로 된 공을 던지거나 굴려 표적구와의 거리를 비교하…
-
-</div>
-</div>
-<div class="emphasis-R3h" id="1:62">
-<div class="ifundraising-itemiconheart-sc-hhibd3-3-8yh" id="1:63"></div>
-<div class="item-441400--23V" id="1:64">441,400원 모금중</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="divcontainercontainerbase-sc-1blfbq7-0-GyR" id="1:89">
-<div class="auto-group-nqu5-1AK" id="Q1nHSTeBoAr9y61aFENqu5">
-<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-wpf" id="1:90">
-<div class="link-2003-29-3481700--tE7" id="1:91">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-7WB" id="1:92">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-7WB-bg"></div>
-<div class="pseudo-f1u" id="1:93"></div>
-</div>
-<div class="divcontent-cardcardcontent-sc-tkgpjx-3-XZu" id="1:94">
-<div class="item--SRy" id="1:96"># 공간개선</div>
-<div class="strong-9LP" id="1:97">장애인이 편한 길이 모두가 안전한 길이에요!</div>
-<div class="spantexttext-sc-55es3p-0-3Rm" id="1:99">
-<div class="item-2003-29--MxF" id="1:100">
-깨지고 튀어나온 보도블럭 때문에 걷기가 위험해요 양평천사의집은
-
-<br/>
-2003년 개원한 장애인거주시설로 29명의 지적, 뇌병변 장애인분들이
-
-<br/>
-삶의 주체가 되어 행복을 이루어가고 있는 곳이에요. 우리 시설은 지…
-
-</div>
-</div>
-<div class="emphasis-rXd" id="1:101">
-<div class="ifundraising-itemiconheart-sc-hhibd3-3-ycF" id="1:102"></div>
-<div class="item-3481700--fEB" id="1:103">3,481,700원 모금중</div>
-</div>
-</div>
-</div>
-</div>
-<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-WEo" id="1:104">
-<div class="link-7-134-120-483500--r3m" id="1:105">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-hib" id="1:106">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-hib-bg"></div>
-<div class="pseudo-qZu" id="1:107"></div>
-</div>
-<div class="divcontent-cardcardcontent-sc-tkgpjx-3-7GX" id="1:108">
-<div class="auto-group-tnxj-Ro1" id="Q1nHr2oF72xLsvXQWDTnxj">
-<div class="item--mM5" id="1:110"># 건강한식생활</div>
-<div class="strong-fxF" id="1:111">내 생에 처음 차려본 소박하지만 따뜻한 한 끼</div>
-</div>
-<div class="spantexttext-sc-55es3p-0-BQo" id="1:113">
-<div class="item-7-134-1-20--he3" id="1:114">
-부산 해운대구 7개동 중 가장 높은 취약계층 인구 비율 본 복지관이 위
-
-<br/>
-치한 반송동은 해운대구 내 노인 인구 수 1위(34%), 저소득 인구 수 1
-
-<br/>
-위(20%)로 열악한 지역입니다. 지역 내 취약계층을 위한 다양한 지원…
-
-</div>
-</div>
-<div class="emphasis-oKh" id="1:115">
-<div class="ifundraising-itemiconheart-sc-hhibd3-3-XFh" id="1:116"></div>
-<div class="item-483500--pEo" id="1:117">483,500원 모금중</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="divcontent-cardcontentcardbase-sc-tkgpjx-0-sD5" id="1:118">
-<div class="link-4-promise-978768--DXq" id="1:119">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-TqV" id="1:120">
-<div class="divcontent-cardthumbnail-sc-tkgpjx-2-TqV-bg"></div>
-<div class="pseudo-bwh" id="1:121"></div>
-</div>
-<div class="divcontent-cardcardcontent-sc-tkgpjx-3-44b" id="1:122">
-<div class="item--Zn3" id="1:124"># 국제구호</div>
-<div class="strong-GgT" id="1:125">폭탄, 배고픔, 열기 속 수단의 아이들</div>
-<div class="spantexttext-sc-55es3p-0-ZfZ" id="1:127">
-<div class="item--HbZ" id="1:128">
-폭탄을 피해도 열기와 배고픔에 스러지는 수단의 아이들을 도와주세요.
-
-<br/>
-갑자기 도시를 뒤흔든 총성, 폭탄으로 무너지는 건물 속에서 무고한 시
-
-<br/>
-민을 지키는 이가 없는 하루하루, 상상이 가시나요? 지금 수단의 아이…
-
-</div>
-</div>
-<div class="emphasis-MUw" id="1:129">
-<div class="ifundraising-itemiconheart-sc-hhibd3-3-GM1" id="1:130"></div>
-<div class="item-978768--M7Z" id="1:131">978,768원 모금중</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="section-bGo" id="1:336">
-<div class="divcontainercontainerbase-sc-1blfbq7-0-vps" id="1:337">
-<div class="divcontainercontainerbase-sc-1blfbq7-0-sEK" id="1:338">
-<div class="auto-group-r3sj-zJw" id="Q1nKPQPzbR5pWuoz53r3Sj">
-<div class="auto-group-5wy7-VmV" id="Q1nKYyxNEBqKkPX1Ed5wY7">
-<div class="auto-group-otif-Eyy" id="Q1nKdZf4qRfsP6WT1YotiF">
-<div class="item--ywZ" id="1:340">장그래님</div>
-<div class="item--tYj" id="1:341">환경보호를 위한 작은 실천들 </div>
-</div>
-<div class="link-AWF" id="1:345">
-<div class="strong--JMZ" id="1:346">총 환경점수</div>
-<div class="item-7777-CC3" id="1:348">7,777점</div>
-</div>
-</div>
-<div class="divstatisticsimagebox-sc-1fyn3y9-3-taf" id="1:349"></div>
-</div>
-<div class="link-ys1" id="1:342">마이페이지</div>
-</div>
-</div>
-<div class="link-cf5" id="1:350">
-<div class="link-cf5-bg"></div>
-<div class="divcontainercontainerbase-sc-1blfbq7-0-whM" id="1:351">
-<div class="strong-UhH" id="1:352">
-<div class="item--qGw" id="1:353">
-이모티콘으로
-
-<br/>
-어린이에게 희망을 전해요
-
-</div>
-</div>
-<div class="pcontainercontainerbase-sc-1blfbq7-0-KT1" id="1:354">구매하면 기부되는 기브티콘</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+									</div>
+								</div>
+								<div class="pcontainercontainerbase-sc-1blfbq7-0-KT1" id="1:354">구매하면
+									기부되는 기브티콘</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div id="footer"></div>
+</body>
+</html>
 </body>
 </html>
